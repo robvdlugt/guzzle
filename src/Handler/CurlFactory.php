@@ -84,7 +84,7 @@ class CurlFactory implements CurlFactoryInterface
                 }
             }
             curl_reset($resource);
-            
+
             $this->handles[] = $resource;
         }
     }
